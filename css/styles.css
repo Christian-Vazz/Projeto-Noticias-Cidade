@@ -43,7 +43,13 @@ a {
     background-position: right;
 }
 
-#home #cabecalho nav .home {
+#home #cabecalho nav .home,
+#brasil #cabecalho nav .brasil,
+#ciencia #cabecalho nav .ciencia,
+#economia #cabecalho nav .economia,
+#fotos #cabecalho nav .fotos,
+#internacional #cabecalho nav .internacional,
+#saude #cabecalho nav .saude {
     background-color: red;
 }
 
