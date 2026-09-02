@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -32,7 +33,12 @@ nav {
     margin-top: 40px;
 }
 
-a {
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav a {
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -53,7 +59,107 @@ a {
     background-color: red;
 }
 
-a:hover {
-    background-color: red;
+nav a:hover {
+    color: rgba(75, 64, 64, 0.993);
 }
+
+main {
+    margin: 20px auto;
+    width: 950px;
+}
+
+aside.menu-esquerda {
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+aside.menu-esquerda h3 {
+    background-color: #294C71;
+    color: white;
+    padding: 5px;
+}
+
+aside.menu-esquerda ul {
+    margin-bottom: 20px;
+}
+
+aside.menu-esquerda ul a {
+    display: block;
+    padding: 10px;
+}
+
+input#email[type="email"] {
+    padding: 10px;
+    margin: 3px 0;
+}
+
+input#email[type="email"]:focus {
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+input#btn {
+    padding: 5px;
+    background-color: rgb(185, 33, 33);
+    border: 1px solid rgb(77, 9, 9);
+    color: white;
+}
+
+aside.conteudos {
+    float: right;
+    width: 730px;
+}
+
+section.noticia {
+    width: 320px;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: left;
+}
+
+section.noticia h3 {
+    background-color: #294C71;
+    color: white;
+    padding: 5px;
+}
+
+section ul li {
+    font-size: 14px;
+    padding: 15px;
+}
+
+section ul li h4 {
+    color: #3e84cf;
+}
+
+section ul li img {
+    float: left;
+    margin-right: 10px;
+}
+
+span.black {
+    font-weight: 900;
+    color: black;
+    background-color: red;
+    padding: 5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+span.white {
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+span.leia-mais {
+    color: red;
+}
+
+
+
 
